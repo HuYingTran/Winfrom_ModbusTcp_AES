@@ -479,6 +479,7 @@ namespace Modbus_client
                     btn_bat_dc.Enabled = true;
                     btn_tat_dc.Enabled = true;
                     btn_set_pid.Enabled = true;
+                    btn_set_speed.Enabled = true;
                 }
                 catch
                 {
@@ -557,7 +558,7 @@ namespace Modbus_client
                             zedGraphControl1.Invoke(new Action(() => vedothi(zedGraphControl1, Line1, Line2, x, Tocdodat, x, Tocdothuc)));
 
                             // Tăng giá trị x cho lần tiếp theo
-                            x += 1;
+                            x += 10;
                         }
 
                         // Gửi yêu cầu mới để cập nhật dữ liệu
