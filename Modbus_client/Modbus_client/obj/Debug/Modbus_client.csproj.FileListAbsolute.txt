@@ -1,0 +1,128 @@
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.Cache
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csprojResolveAssemblyReference.cache
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_01\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_01\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_01\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.Cache
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_IP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csprojResolveAssemblyReference.cache
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_AES\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.Cache
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csprojResolveAssemblyReference.cache
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+D:\ATT_Trong_HTDK\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.Cache
+D:\ATT_Trong_HTDK\Chuong trinh\Modbus_TCP_Bao_mat_Ver2\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+D:\ATT_Trong_HTDK\Chuong trinh\Modbus_TCP_Bao_mat_Ver2\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+D:\ATT_Trong_HTDK\Chuong trinh\Modbus_TCP_Bao_mat_Ver2\Modbus_TCP_AES_01\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csprojResolveAssemblyReference.cache
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+C:\Users\Xuan\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.Cache
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ZedGraph.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ZedGraph.xml
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.AssemblyReference.cache
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.cache
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.CoreCompileInputs.cache
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_c.95C7A610.Up2Date
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+C:\Users\caoxu\OneDrive\Desktop\TCP\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ZedGraph.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ZedGraph.xml
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.AssemblyReference.cache
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.cache
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.CoreCompileInputs.cache
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_c.95C7A610.Up2Date
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+C:\Users\kn511\OneDrive\Desktop\Đồ án tốt nghiệp\AES_PC\Buoc_02\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe.config
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\Modbus_client.exe
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\Modbus_client.pdb
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\ZedGraph.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\ZedGraph.xml
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\de\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\es\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\fr\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\hu\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\it\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\ja\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\pt\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\ru\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\sk\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\sv\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\tr\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.AssemblyReference.cache
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Form1.resources
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.Properties.Resources.resources
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.GenerateResource.cache
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.csproj.CoreCompileInputs.cache
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_c.95C7A610.Up2Date
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.exe
+E:\UP_WORK\AES\Thư mục mới (4)\Modbus_client\Modbus_client\obj\Debug\Modbus_client.pdb
