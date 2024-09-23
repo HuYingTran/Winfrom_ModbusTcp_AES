@@ -445,8 +445,8 @@ void receiveModbusTcp(EthernetClient client, byte* modbusTcpFrame, unsigned int&
         }
     }
 
-    byte ecrypted_modbus[];
-    byte decrypted_modbus[];
+    byte ecrypted_modbus[32];
+    byte decrypted_modbus[32];
 
     // Tách lấy 32byte bị mã hóa
     for(int i = 0; i < 32; i++){
