@@ -450,7 +450,7 @@ void receiveModbusTcp(EthernetClient client, byte* modbusTcpFrame, unsigned int&
 
     // Tách lấy 32byte bị mã hóa
     for(int i = 0; i < 32; i++){
-      ecrypted_modbus[i] = modbusTcpFrame_temp;
+      ecrypted_modbus[i] = modbusTcpFrame_temp[7+i];
     }
 
     AES128_ECB_decrypt(ecrypted_modbus, key, decrypted_modbus); // Giải mã
