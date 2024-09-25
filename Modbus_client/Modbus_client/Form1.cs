@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -219,6 +219,7 @@ namespace Modbus_client
                 Send_data_tcp[7 + i] = cipherText[i];
 
             index = 0;
+            stream.Write(Send_data_tcp, 0, 39);
         }
 
         // Hàm gửi yêu cầu ghi một thanh ghi (Function Code 06)
@@ -400,7 +401,8 @@ namespace Modbus_client
         {   
             index = 0;
             ModTCP_Req_06(0x0000, 0x01, 0x0000, 0x0001);
-
+            
+            Thread.Sleep(100);
             Line1.Clear();
             Line2.Clear();
             zedGraphControl1.GraphPane.XAxis.Scale.Min = 0;
@@ -415,6 +417,8 @@ namespace Modbus_client
             thread_reciver.Start();
             flag_on = true;
             change_color_btn();
+            TranID += 1;
+            ModTCP_Req_03(TranID, 0x01, 0x0001, 0x0002);
         }
 
         private void btn_tat_dc_Click(object sender, EventArgs e)
@@ -434,9 +438,10 @@ namespace Modbus_client
         {
             // nội dung thanh ghi
             UInt16 setpoint = (UInt16)(Convert.ToDouble(textBox_speed.Text));
-
+            flag_on = false;
             ModTCP_Req_06(0x0000, 0x01, 0x0001, setpoint);
             Thread.Sleep(200);
+            flag_on |= true;
 
             if (setpoint > zedGraphControl1.GraphPane.YAxis.Scale.Max)
                 zedGraphControl1.GraphPane.YAxis.Scale.Max = setpoint + 20;
@@ -519,6 +524,11 @@ namespace Modbus_client
                     {
                         int n = stream.Read(Received_data_tcp, 0, 100);
 
+                        if (n > 0)
+                        {
+                            Console.WriteLine("Have revice data");
+                        }
+
                         for (int i = 0; i < 32; i++)
                         {
                             cipherText[i] = Received_data_tcp[7 + i];
@@ -557,8 +567,8 @@ namespace Modbus_client
 
                         if (ok == 1 && Received_data_tcp[15] == 0x03)
                         {
-                            double Tocdodat = Received_data_tcp[17] * 256 + Received_data_tcp[18];
-                            double Tocdothuc = Received_data_tcp[19] * 256 + Received_data_tcp[20];
+                            double Tocdodat = (Received_data_tcp[17] * 256 + Received_data_tcp[18])/100;
+                            double Tocdothuc = (Received_data_tcp[19] * 256 + Received_data_tcp[20])/100;
                             //btn_set_pid.Text = Tocdodat.ToString();
                             // In ra giá trị của Tocdodat và Tocdothuc để kiểm tra
                             Console.WriteLine($"Tocdodat: {Tocdodat}, Tocdothuc: {Tocdothuc} x={x}");
@@ -576,7 +586,7 @@ namespace Modbus_client
                             zedGraphControl1.Invoke(new Action(() => vedothi(zedGraphControl1, Line1, Line2, x, Tocdodat, x, Tocdothuc)));
 
                             // Tăng giá trị x cho lần tiếp theo
-                            x += 10;
+                            x += 10;                          
                         }
                     }
                 }
@@ -589,6 +599,11 @@ namespace Modbus_client
                 ModTCP_Req_03(TranID, 0x01, 0x0001, 0x0002);
                 Console.WriteLine("Read ....");
             }
+        }
+
+        private void textBox_ip_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
