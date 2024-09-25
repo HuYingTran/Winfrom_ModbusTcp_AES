@@ -438,26 +438,38 @@ void receiveModbusTcp(EthernetClient client, byte* modbusTcpFrame, unsigned int&
     unsigned long minisecl, minisech; 
     while (client.available()) {
         if (length < 39) { // Đảm bảo không vượt quá kích thước bộ đệm
-            length_temp++;
             modbusTcpFrame_temp[length_temp] = client.read();
+            length_temp++;
         } else {
             break;
         }
     }
-
-    byte ecrypted_modbus[32];
-    byte decrypted_modbus[32];
+    
+    byte ecrypted_modbus[16];
+    byte decrypted_modbus[16];
 
     // Tách lấy 32byte bị mã hóa
-    for(int i = 0; i < 32; i++){
+    for(int i = 0; i < 16; i++){
       ecrypted_modbus[i] = modbusTcpFrame_temp[7+i];
     }
-
     AES128_ECB_decrypt(ecrypted_modbus, key, decrypted_modbus); // Giải mã
-    
+
     // Gộp lại thành chuỗi modbus ban đầu khi chưa mã hóa
-    for(int i = 0; i < 32; i++){
+    for(int i = 0; i < 16; i++){
+      Serial.print(decrypted_modbus[i]);
       modbusTcpFrame_temp[i+7] = decrypted_modbus[i];
+    }
+
+    // Tách lấy 32byte bị mã hóa
+    for(int i = 0; i < 16; i++){
+      ecrypted_modbus[i] = modbusTcpFrame_temp[7+16+i];
+    }
+    AES128_ECB_decrypt(ecrypted_modbus, key, decrypted_modbus); // Giải mã
+
+    // Gộp lại thành chuỗi modbus ban đầu khi chưa mã hóa
+    for(int i = 0; i < 16; i++){
+      Serial.print(decrypted_modbus[i]);
+      modbusTcpFrame_temp[i+7+16] = decrypted_modbus[i];
     }
 
     byte functionCode = modbusTcpFrame_temp[15]; // FC nằm ở byte thứ 16 của gói TCP/IP
@@ -586,7 +598,6 @@ void convertTcpToRtu(byte* modbusTcpFrame, byte* modbusRtuFrame, int length) {
         }
     }
 }
-char ch;
 
 void loop() {
     EthernetClient client = server.available();

@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Modbus_client\\Form1.cs",
               "ToolTip": "E:\\du_an\\Winfrom_ModbusTcp_AES\\Modbus_client\\Modbus_client\\Form1.cs",
               "RelativeToolTip": "Modbus_client\\Form1.cs",
-              "ViewState": "AgIAAB0CAAAAAAAAAAAAAI8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEACAAAAAAAAAAAAwE0CAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T07:19:23.293Z",
               "IsPinned": true,
@@ -64,7 +64,8 @@
               "RelativeToolTip": "Modbus_client\\Form1.Designer.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAIA0wF0BAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:11:44.625Z"
+              "WhenOpened": "2024-09-16T08:11:44.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +76,8 @@
               "ToolTip": "E:\\du_an\\Winfrom_ModbusTcp_AES\\Modbus_client\\Modbus_client\\Form1.cs [Design]",
               "RelativeToolTip": "Modbus_client\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T07:19:18.042Z"
+              "WhenOpened": "2024-08-26T07:19:18.042Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

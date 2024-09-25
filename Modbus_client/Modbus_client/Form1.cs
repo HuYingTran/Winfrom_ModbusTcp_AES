@@ -34,6 +34,7 @@ namespace Modbus_client
         byte[] Received_data_tcp = new byte[100]; // Bộ đệm nhận dữ liệu từ Server   
         double x = 0;
         bool flag_on = false;
+        bool flag_dc = false;
         UInt32 Minisech = 0;
         UInt32 Minisecl = 0;
 
@@ -379,9 +380,24 @@ namespace Modbus_client
         //-----------------------------------------------------------------------------------------
 
 
-        // Hàm xử lý Timer (Cập nhật dữ liệu và vẽ đồ thị)
-        private void btn_bat_dc_Click(object sender, EventArgs e)
+        // Hàm xử lý sự kiện button
+        private void change_color_btn()
         {
+            if (!flag_dc)
+            {
+                flag_dc = true;
+                btn_bat_dc.BackColor = Color.Lime;
+                btn_tat_dc.BackColor = SystemColors.Control;
+            }
+            else
+            {
+                flag_dc = false;
+                btn_bat_dc.BackColor = SystemColors.Control;
+                btn_tat_dc.BackColor = Color.Lime;
+            }
+        }
+        private void btn_bat_dc_Click(object sender, EventArgs e)
+        {   
             index = 0;
             ModTCP_Req_06(0x0000, 0x01, 0x0000, 0x0001);
 
@@ -398,6 +414,7 @@ namespace Modbus_client
             Thread thread_reciver = new Thread(start_reciver);
             thread_reciver.Start();
             flag_on = true;
+            change_color_btn();
         }
 
         private void btn_tat_dc_Click(object sender, EventArgs e)
@@ -410,6 +427,7 @@ namespace Modbus_client
             Line2.Clear();
             x = 0;
             flag_on = false;
+            change_color_btn();
         }
 
         private void btn_speed_Click(object sender, EventArgs e)
@@ -537,10 +555,10 @@ namespace Modbus_client
                             }
                         }
 
-                        if (ok == 1 && Received_data_tcp[15] == 0x06)
+                        if (ok == 1 && Received_data_tcp[15] == 0x03)
                         {
-                            double Tocdodat = (Received_data_tcp[18] * 256 + Received_data_tcp[19]);
-                            double Tocdothuc = Tocdodat + 50;
+                            double Tocdodat = Received_data_tcp[17] * 256 + Received_data_tcp[18];
+                            double Tocdothuc = Received_data_tcp[19] * 256 + Received_data_tcp[20];
                             //btn_set_pid.Text = Tocdodat.ToString();
                             // In ra giá trị của Tocdodat và Tocdothuc để kiểm tra
                             Console.WriteLine($"Tocdodat: {Tocdodat}, Tocdothuc: {Tocdothuc} x={x}");
@@ -560,16 +578,16 @@ namespace Modbus_client
                             // Tăng giá trị x cho lần tiếp theo
                             x += 10;
                         }
-
-                        // Gửi yêu cầu mới để cập nhật dữ liệu
-                        TranID += 1;
-                        ModTCP_Req_03(TranID, 0x01, 0x0001, 0x0002);
                     }
                 }
                 catch (IOException ex)
                 {
                     Console.WriteLine("Lisent...");
                 }
+                // Gửi yêu cầu mới để cập nhật dữ liệu
+                TranID += 1;
+                ModTCP_Req_03(TranID, 0x01, 0x0001, 0x0002);
+                Console.WriteLine("Read ....");
             }
         }
     }

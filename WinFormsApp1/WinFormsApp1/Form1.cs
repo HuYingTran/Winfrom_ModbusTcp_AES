@@ -14,6 +14,7 @@ namespace WinFormsApp1
         private TcpClient client;
         private NetworkStream stream;
         bool flag_on = false;
+        bool click_on = false;
         byte[] dataToProcess = new byte[39];
         public Form1()
         {
@@ -36,7 +37,7 @@ namespace WinFormsApp1
                 {
                     // Địa chỉ IP và cổng mà server sẽ lắng nghe
                     int port = 502;
-                    IPAddress localAddr = IPAddress.Parse("192.168.0.5");
+                    IPAddress localAddr = IPAddress.Parse("192.168.88.165");
 
                     // Tạo đối tượng TcpListener để lắng nghe kết nối từ client
                     server = new TcpListener(localAddr, port);
